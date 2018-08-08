@@ -1,5 +1,5 @@
 # Canteen
-#### It's a platform that helps managing canteen food. 
+#### It's a platform that helps with managing canteen food. 
 ![Canteen report](https://i.imgur.com/g33doJs.png)
 
 ## What project uses
