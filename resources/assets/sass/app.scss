@@ -1,0 +1,57 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+
+@import "~vue-snotify/styles/material";
+.snotifyToast {
+  &__title {
+    font-size: 1.3em;
+  }
+}
+
+@import "vtooltip.scss";
+.tooltip {
+  .tooltip-inner {
+      background: map-get($theme-colors, "primary");
+  }
+  .tooltip-arrow {
+      border-color: map-get($theme-colors, "primary");
+  }
+  &.popover {
+    .popover-arrow {
+        border-color: map-get($theme-colors, "dark");
+    }
+    .popover-inner {
+      padding: 10px;
+    }
+  }
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+  padding  : .5rem .25rem;
+  font-size  : .875rem;
+  line-height  : .5;
+  border-radius : .2rem;
+}
+
+.btn-group-xs-control > .btn,
+.btn-xs-control {
+  padding  : .3rem .3rem;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
